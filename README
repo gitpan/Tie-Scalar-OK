@@ -1,0 +1,24 @@
+NAME
+    Tie::Scalar::OK
+
+INSTALL
+    Installation as usual:
+
+        perl Makefile.PL
+        make
+        make test
+        make install
+
+DESCRIPTION
+    See perldoc Tie::Scalar::OK
+
+HISTORY
+	1.00 - Initial release
+
+AUTHOR
+    Jeffrey Hayes Anderson <captvanhalen@yahoo.com>
+
+COPYRIGHT
+    Copyright (c) 2002 Jeffrey Hayes Anderson.
+	See source POD for additional copyright information.
+
