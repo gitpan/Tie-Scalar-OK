@@ -4,7 +4,7 @@ use strict;
 use base qw(Tie::Scalar);
 use vars qw($VERSION);
 
-$VERSION = '1.02';
+$VERSION = '1.06';
 
 sub TIESCALAR {
    my $class = shift;
@@ -55,6 +55,23 @@ strings are printed to STDOUT for pass and fail, respectively.
    print $ok = ('phenobarbitone' =~ /bar/ );    # ok
    print $ok = (0 != (32&(32-1)));              # not ok
 
+=head1 BUGS
+
+If you have found a bug, typo, etc. please visit Best Practical Solution's
+CPAN bug tracker at http://rt.cpan.org:
+
+E<lt>http://rt.cpan.org/NoAuth/Bugs.html?Dist=Tie-Scalar-OKE<gt>
+
+or send mail to E<lt>bug-Tie-Scalar-OK#rt.cpan.orgE<gt>
+
+(you got this far ... you can figure out how to make that
+a valid address ... and note that i won't respond to bugs
+sent to my personal address any longer)
+
+=head1 AUTHOR 
+
+Jeffrey Hayes Anderson
+
 =head1 SEE ALSO
 
 Test
@@ -62,31 +79,14 @@ Test::Harness
 Test::Simple
 Test::More
 
-=head1 AUTHOR 
-
-Jeffrey Hayes Anderson <captvanhalen@yahoo.com>
-
 =head1 COPYRIGHT
 
-Copyright (c) 2003 Jeffrey Hayes Anderson.
+Copyright (c) 2004 Jeffrey Hayes Anderson.
 
-Permission is hereby granted, free of charge, to any person
-obtaining a copy of this software and associated documentation
-files (the "Software"), to deal in the Software without restriction,
-including without limitation the rights to use, copy, modify,
-merge, publish, distribute, sublicense, and/or sell copies of the
-Software, and to permit persons to whom the Software is furnished to
-do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included
-in all copies or substantial portions of the Software.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
-OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
-THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR
-OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
-ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
-OTHER DEALINGS IN THE SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 =cut
