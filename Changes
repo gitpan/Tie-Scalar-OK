@@ -1,6 +1,9 @@
 Revision history for Perl extension Tie::Scalar::OK.
 
-1.00  Tue Jun 11 22:07:23 2002
+1.02  Thu Jan 23 22:37:50 CST 2003
+	- incremented copyright date ... 23 days late
+
+1.00  Tue Jun 11 22:07:23 CST 2002
 	- original version; created by h2xs 1.20 with options
 		-A -X Tie::Scalar::OK
 

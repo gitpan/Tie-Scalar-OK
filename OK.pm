@@ -4,7 +4,7 @@ use strict;
 use base qw(Tie::Scalar);
 use vars qw($VERSION);
 
-$VERSION = '1.00';
+$VERSION = '1.02';
 
 sub TIESCALAR {
    my $class = shift;
@@ -68,7 +68,7 @@ Jeffrey Hayes Anderson <captvanhalen@yahoo.com>
 
 =head1 COPYRIGHT
 
-Copyright (c) 2002 Jeffrey Hayes Anderson.
+Copyright (c) 2003 Jeffrey Hayes Anderson.
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
